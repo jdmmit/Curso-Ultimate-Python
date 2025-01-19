@@ -1,0 +1,1 @@
+"""Cree una carpeta denominada day_1 dentro de la carpeta 30DaysOfPython. Dentro de day_1 carpeta, cree un archivo de python helloworld.py y repita las preguntas 1, 2, 3 y 4. Recuerde usar print() cuando esté trabajando en un archivo de Python. Navegue hasta el directorio donde ha guardado su archivo y ejecútelo."""
