@@ -28,6 +28,16 @@ h = a ** b # Exponencial(**)
 
 i = a ** b # Operador de división de piso(//)
 
+print(a)
+print(b)
+print(c)
+print(d)
+print(f)
+print(g)
+print(h)
+print(i)
+
+
 
 
 # Escriba cadenas en el shell interactivo de Python. Las cadenas son las siguientes:
