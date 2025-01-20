@@ -10,6 +10,26 @@ división(/)
 Exponencial(**)
 Operador de división de piso(//)"""
 
+
+a = 3 
+b = 5
+
+c = a + b # Adición(+)
+
+d = a - b # resta(-)
+
+e = a * b # multiplicación(*)
+
+f = a % b # módulo (%)
+
+g = a / b # división(/)
+
+h = a ** b # Exponencial(**)
+
+i = a ** b # Operador de división de piso(//)
+
+
+
 # Escriba cadenas en el shell interactivo de Python. Las cadenas son las siguientes:
 
 """Te llamas
