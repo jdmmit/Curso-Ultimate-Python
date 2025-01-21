@@ -1,57 +1,53 @@
-# Compruebe la versión de python que está utilizando
+import math
 
-#Abra el shell interactivo de Python y realice las siguientes operaciones. Los operandos son 3 y 4.
+"""Escriba un ejemplo para diferentes tipos de datos de Python, como Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set y Dictionary."""
+# Number
+integer_example = 10
+float_example = 10.5
+complex_example = 2 + 3j
 
-"""Adición(+)
-resta(-)
-multiplicación(*)
-módulo (%)
-división(/)
-Exponencial(**)
-Operador de división de piso(//)"""
+print(integer_example)
+print(float_example)
+print(complex_example)
+
+# String
+string_example = "Hello, World!"
+
+print(string_example)   
+
+# Boolean
+boolean_example = True
+
+print(boolean_example)
+
+# List
+list_example = [1, 2, 3, 4, 5]
+
+print(list_example)
+
+# Tuple
+tuple_example = (1, 2, 3, 4, 5)
+
+print(tuple_example)
+
+# Set
+set_example = {1, 2, 3, 4, 5}
+
+print(set_example)
+# Dictionary
+dictionary_example = {"name": "John", "age": 30, "city": "New York"}
+
+print(dictionary_example)
 
 
-a = 3 
-b = 5
+"""Halla una distancia euclidiana entre (2, 3) y (10, 8)"""
 
-c = a + b # Adición(+)
+point1 = (2, 3)
+point2 = (10, 8)
 
-d = a - b # resta(-)
+euclidean_distance = math.sqrt((point2[0] - point1[0]) ** 2 + (point2[1] - point1[1]) ** 2)
 
-e = a * b # multiplicación(*)
-
-f = a % b # módulo (%)
-
-g = a / b # división(/)
-
-h = a ** b # Exponencial(**)
-
-i = a ** b # Operador de división de piso(//)
-
-print(a)
-print(b)
-print(c)
-print(d)
-print(f)
-print(g)
-print(h)
-print(i)
+print("La distancia euclidiana entre {} y {} es: {}".format(point1, point2, euclidean_distance))
 
 
 
-
-# Escriba cadenas en el shell interactivo de Python. Las cadenas son las siguientes:
-
-"""Te llamas
-Su apellido
-Tu país
-Estoy disfrutando de 30 días de pitón
-Compruebe los tipos de datos de los siguientes datos:
-10
-9.8
-3.14
-4 - 4j
-['Asabeneh', 'Pitón', 'Finlandia']
-Te llamas
-Su apellido
-Tu país"""
