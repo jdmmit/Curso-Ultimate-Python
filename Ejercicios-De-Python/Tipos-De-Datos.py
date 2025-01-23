@@ -21,7 +21,7 @@ print(saludo)
 
 nombre = input("Cual es tu nombre?: ")
 
-print("!Hola " + nombre "¡")
+print("!Hola " + nombre + "¡")
 
 # Ejercicio 4
 # Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética (3 + 2 / 2 * 5)**2  .
@@ -41,18 +41,16 @@ print(suma)
 
 # Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
 
-horas_trabajadas = input(int("Ingrese el numero de horas trabajadas: "))
-costo_hora = input(float("Ingresa el valor de cada hoara trabajada: "))
-total_ganado = horas_trabajadas * costo_hora
+horas_trabajadas = int(input("Ingrese el numero de horas trabajadas: "))
+costo_hora = float(input("Ingresa el valor de cada hoara trabajada: "))
+total_ganado = float(horas_trabajadas * costo_hora)
 
-print("Usted gano" + total_ganado + "pesos.")
+print(f"Usted gano {total_ganado} pesos.")
 
 # Ejercicio 6
 # Escribir un programa que lea un entero positivo, , introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta . La suma de los  primeros enteros positivos puede ser calculada de la siguiente forma:
 
 
-
- 
 
 
 # Ejercicio 7
