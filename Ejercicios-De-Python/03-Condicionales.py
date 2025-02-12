@@ -51,10 +51,25 @@ else:
 
 # Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales. Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.
 
+edadd = int(input("Introduce tu edad: "))
+ingresos = float(input("Introduce tus ingresos mensuales: "))
 
+if edad > 16 and ingresos >= 1000:
+    print("Tienes que tributar")
+else:
+    print("No tienes que tributar")
 
 # Ejercicio 6
 # Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el nombre. El grupo A esta formado por las mujeres con un nombre anterior a la M y los hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.
+
+nombre = input("¿Cómo te llamas? ")
+sexo = input("¿Cuál es tu sexo (M o H)? ")
+
+if sexo == "M":
+    if nombre.lower() < "m":
+        grupo = "A"
+    else:
+        grupo = "B"
 
 
 # Ejercicio 7
