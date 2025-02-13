@@ -79,6 +79,10 @@ print(palabra[::-1])
 
 # 8. ** Tablas de multiplicar**: Imprime la tabla de multiplicar de un número ingresado por el usuario.
 
+num = int(input("Ingresa un número: "))
+suma = sum(i for i in range(2, num+1, 2))
+print(f"La suma de los números pares hasta {num} es: {suma}")
+
 
 # 9. ** Suma de números pares**: Pide un número y muestra la suma de todos los números pares hasta ese número.
 
