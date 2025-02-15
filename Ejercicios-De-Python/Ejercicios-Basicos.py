@@ -89,3 +89,24 @@ print(f"La suma de los números pares hasta {num} es: {suma}")
 # 10. ** Números primos**: Escribe un programa que determine si un número es primo.
 
 # ---
+
+# Ejercicios Nuevos - Nivel Básico
+# Calculadora de edad en días : Pide al usuario su edad en años y muestra cuántos días ha vivido aproximadamente.
+
+# Cálculo del perímetro y área de un círculo : Solicita la radio de un círculo y muestra su perímetro y área. Usa math.pipara obtener π.
+
+# Conversión de kilómetros a millas : Pide una cantidad en kilómetros y conviértela a millas (1 km = 0,621371 millas).
+
+# Promedio de tres números : Solicita tres números al usuario y muestra su promedio.
+
+# Cálculo del factorial : Pide un número entero positivo y calcula su factorial sin usar librerías.
+
+# Contador de vocales : Pide una palabra o frase y muestra cuántas vocales tiene.
+
+# Verificación de palíndromos : Pide una palabra y verifica si se lee igual al revés.
+
+# Generador de números pares : Solicita un número ny muestra los primeros nnúmeros pares.
+
+# Generador de Fibonacci : Pide un número ny muestra los primeros nnúmeros de la serie de Fibonacci.
+
+# Adivina el número : Genera un número aleatorio entre 1 y 10 y pide al usuario que lo adivine. Responde si el número ingresado es mayor o menor hasta que aciertes.

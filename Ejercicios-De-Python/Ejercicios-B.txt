@@ -1,0 +1,59 @@
+# Aquí tienes una lista de ejercicios para practicar Python, organizados por nivel de dificultad:
+
+# ---
+
+# 🟢 **Nivel Básico**
+
+# 1. ** Operaciones matemáticas**: Escribe un programa que solicite dos números al usuario y muestre la suma, resta, multiplicación y división de ellos.
+
+
+# 2. ** Par o impar**: Pide un número al usuario y determina si es par o impar.
+
+
+
+# 3. ** Área de un triángulo**: Calcula el área de un triángulo a partir de su base y altura.
+
+
+# 4. ** Conversión de temperatura**: Convierte grados Celsius a Fahrenheit.
+
+
+# 5. ** Año bisiesto**: Pide un año al usuario y determina si es bisiesto.
+
+
+# 6. ** Contador de caracteres**: Solicita una frase y muestra cuántos caracteres tiene(sin contar espacios).
+
+
+
+# 7. ** Inversión de cadena**: Pide al usuario una palabra y muéstrala al revés.
+
+
+# 8. ** Tablas de multiplicar**: Imprime la tabla de multiplicar de un número ingresado por el usuario.
+
+
+
+# 9. ** Suma de números pares**: Pide un número y muestra la suma de todos los números pares hasta ese número.
+
+# 10. ** Números primos**: Escribe un programa que determine si un número es primo.
+
+# ---
+
+Ejercicios Nuevos - Nivel Básico
+Calculadora de edad en días : Pide al usuario su edad en años y muestra cuántos días ha vivido aproximadamente.
+
+Cálculo del perímetro y área de un círculo : Solicita la radio de un círculo y muestra su perímetro y área. Usa math.pipara obtener π.
+
+Conversión de kilómetros a millas : Pide una cantidad en kilómetros y conviértela a millas (1 km = 0,621371 millas).
+
+Promedio de tres números : Solicita tres números al usuario y muestra su promedio.
+
+Cálculo del factorial : Pide un número entero positivo y calcula su factorial sin usar librerías.
+
+Contador de vocales : Pide una palabra o frase y muestra cuántas vocales tiene.
+
+Verificación de palíndromos : Pide una palabra y verifica si se lee igual al revés.
+
+Generador de números pares : Solicita un número ny muestra los primeros nnúmeros pares.
+
+Generador de Fibonacci : Pide un número ny muestra los primeros nnúmeros de la serie de Fibonacci.
+
+Adivina el número : Genera un número aleatorio entre 1 y 10 y pide al usuario que lo adivine. Responde si el número ingresado es mayor o menor hasta que aciertes.
