@@ -86,6 +86,11 @@ print(f"La suma de los números pares hasta {num} es: {suma}")
 
 # 9. ** Suma de números pares**: Pide un número y muestra la suma de todos los números pares hasta ese número.
 
+num = int(input("Ingresa un número: "))
+suma = sum(i for i in range(2, num+1, 2))
+print(f"La suma de los números pares hasta {num} es: {suma}")
+
+
 # 10. ** Números primos**: Escribe un programa que determine si un número es primo.
 
 # ---
