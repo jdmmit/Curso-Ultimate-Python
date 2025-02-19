@@ -73,7 +73,7 @@ print(f"Número de caracteres (sin espacios): {len(frase.replace(' ', ''))}")
 
 # 7. ** Inversión de cadena**: Pide al usuario una palabra y muéstrala al revés.
 
-palabra = input("Ingresa una frase: ")
+palabra = input("Ingresa una palabra: ")
 
 print(palabra[::-1])
 
@@ -93,12 +93,35 @@ print(f"La suma de los números pares hasta {num} es: {suma}")
 
 # 10. ** Números primos**: Escribe un programa que determine si un número es primo.
 
+num = int(input("Ingresa un número: "))
+if num < 2:
+    print("El número no es primo.")
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            print("El número no es primo.")
+            break
+    else:
+        print("El número es primo.")
+
 # ---
 
 # Ejercicios Nuevos - Nivel Básico
 # Calculadora de edad en días : Pide al usuario su edad en años y muestra cuántos días ha vivido aproximadamente.
 
+edad = int(input("Ingresa tu edad: "))
+dias = edad * 365
+print(f"Has vivido aproximadamente {dias} días.")
+
+
 # Cálculo del perímetro y área de un círculo : Solicita la radio de un círculo y muestra su perímetro y área. Usa math.pipara obtener π.
+
+radio = float(input("Ingresa el radio del círculo: "))
+perimetro = 2 * 3.1416 * radio
+area = 3.1416 * radio**2    
+print(f"El perímetro del círculo es {perimetro} y su área es {area}.")
+
+
 
 # Conversión de kilómetros a millas : Pide una cantidad en kilómetros y conviértela a millas (1 km = 0,621371 millas).
 
