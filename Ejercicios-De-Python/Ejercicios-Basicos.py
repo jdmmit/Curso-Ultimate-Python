@@ -125,9 +125,25 @@ print(f"El perímetro del círculo es {perimetro} y su área es {area}.")
 
 # Conversión de kilómetros a millas : Pide una cantidad en kilómetros y conviértela a millas (1 km = 0,621371 millas).
 
+kilometros = float(input("Ingresa la cantidad en kilómetros: "))
+millas = kilometros * 0.621371
+print(f"{kilometros} kilómetros equivalen a {millas} millas.")
+
+
 # Promedio de tres números : Solicita tres números al usuario y muestra su promedio.
 
+numero_1 = float(input("Ingresa el primer número: "))
+numero_2 = float(input("Ingresa el segundo número: "))      
+numero_3 = float(input("Ingresa el tercer número: "))
+
+promedio = (numero_1 + numero_2 + numero_3) / 3
+print(f"El promedio de los tres números es {promedio}.")
+
+
+
 # Cálculo del factorial : Pide un número entero positivo y calcula su factorial sin usar librerías.
+
+numero = 
 
 # Contador de vocales : Pide una palabra o frase y muestra cuántas vocales tiene.
 
