@@ -143,14 +143,58 @@ print(f"El promedio de los tres números es {promedio}.")
 
 # Cálculo del factorial : Pide un número entero positivo y calcula su factorial sin usar librerías.
 
-numero = 
+numero = float(input("Ingresa un número entero positivo: "))
+factorial = 1
+if numero < 0:
+    print("El número debe ser positivo.")
+elif numero == 0:
+    print("El factorial de 0 es 1.")
+else:
+    for i in range(1, int(numero) + 1):
+        factorial *= i
+    print(f"El factorial de {numero} es {factorial}.")
 
 # Contador de vocales : Pide una palabra o frase y muestra cuántas vocales tiene.
 
+palabra = input("Ingresa una palabra o frase: ")
+vocales = sum(1 for i in palabra if i in "aeiouAEIOU")
+print(f"La palabra o frase tiene {vocales} vocal(es).") 
+
+
 # Verificación de palíndromos : Pide una palabra y verifica si se lee igual al revés.
+
+palabra = input("Ingresa una palabra: ")
+if palabra == palabra[::-1]:
+    print("Es un palíndromo.")
+else:
+    print("No es un palíndromo.")
+    
+    
 
 # Generador de números pares : Solicita un número ny muestra los primeros nnúmeros pares.
 
+numero = int(input("Ingresa un número: "))
+pares = [i for i in range(2, numero*2, 2)]
+print(f"Los primeros {numero} números pares son: {pares}")
+
+
 # Generador de Fibonacci : Pide un número ny muestra los primeros nnúmeros de la serie de Fibonacci.
 
+numero = int(input("Ingresa un número: "))
+fibonacci = [0, 1]
+for i in range(2, numero):
+    fibonacci.append(fibonacci[i-1] + fibonacci[i-2])
+print(f"Los primeros {numero} números de la serie de Fibonacci son: {fibonacci}")
+
 # Adivina el número : Genera un número aleatorio entre 1 y 10 y pide al usuario que lo adivine. Responde si el número ingresado es mayor o menor hasta que aciertes.
+
+import random
+
+numero = random.randint(1, 10)
+adivina = int(input("Adivina el número entre 1 y 10: "))
+while adivina != numero:
+    if adivina < numero:
+        adivina = int(input("Intenta con un número mayor: "))
+    else:
+        adivina = int(input("Intenta con un número menor: "))
+print("¡Correcto!")

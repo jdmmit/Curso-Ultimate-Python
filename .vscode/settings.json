@@ -1,3 +1,4 @@
 {
-    "editor.inlineSuggest.edits.codeShifting": true
+    "editor.inlineSuggest.edits.codeShifting": true,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
